@@ -4,21 +4,21 @@
 git version
 
 ### Qual o efeito da execução de cada um dos comandos abaixo?
-###### git config -l
+##### git config -l
 Lista todas as configurações que podem ser editadas do git
-###### git mv a.txt b.txt
+##### git mv a.txt b.txt
 Renomeia o arquivo a.txt para b.txt
-###### git reset --hard
+##### git reset --hard
 Retorna para o último commit, apagando todas as alterações posteriores.
-###### git log -27
+##### git log -27
 Mostra os logs dos últimos 27 commits
-###### git help
+##### git help
 Mostra a ajuda git, listando e descrevendo os comandos mais comuns
-###### git help reset
+##### git help reset
 Mostra a ajuda do comando reset em uma página web, com o uso e todos os parâmetros que podem ser chamados
-###### git add --all
+##### git add --all
 Adiciona TODOS os arquivos alterados e adicionados/removidos para o index para serem commitados, inclusive untracked
-###### git add -u
+##### git add -u
 Se nenhum arquivo for especificado, adiciona todos os arquivos alterados e adicionados/removidos ao index
 
 ### O fluxo “clássico” de interação com o Git é algo como “alterar um ou mais arquivos”, “acrescentar essas mudanças para serem contemplados no próximo commit” e, finalmente, executar um “commit”. Quais os comandos necessários para realizar os dois últimos “passos” desse fluxo?
@@ -71,10 +71,10 @@ HEAD
 Não, pois git add -u ignora arquivos untracked.
 
 ### Qual o efeito da execução dos dois comandos abaixo, nesta ordem, em um dado repositório?
-###### git reset --soft HEAD~1
+##### git reset --soft HEAD~1
 Reseta o branch para o último commit, porém mantendo as alterações no arquivos.
 
-###### git reset --hard
+##### git reset --hard
 Reseta o branch para o último commit, mas sem manter as alterações em nenhum arquivo.
 
 ### Após o emprego de um ambiente integrado de desenvolvimento (IDE), é comum a criação de arquivos e diretórios. Qual o comando que podemos empregar para remover arquivos e diretórios untracked?
@@ -91,6 +91,7 @@ Exibe uma lista de todos os autores, seus e-mails e o número de commits realiza
 
 ### No repositório jqueryrepo, qual o efeito de git remote -v?
 Exibe os endereços para puxar e empurrar do repositório remoto
+
 origin  https://github.com/jquery/jquery.git (fetch)
 origin  https://github.com/jquery/jquery.git (push)
 
