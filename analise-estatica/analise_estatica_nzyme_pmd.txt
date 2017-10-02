@@ -1,0 +1,22 @@
+C:\nzyme-master\src\main\java\horse\wtf\nzyme\Logging.java:26:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+C:\nzyme-master\src\main\java\horse\wtf\nzyme\Main.java:40:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+C:\nzyme-master\src\main\java\horse\wtf\nzyme\NzymeImpl.java:188:	A switch statement does not contain a break
+C:\nzyme-master\src\main\java\horse\wtf\nzyme\Tools.java:25:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+C:\nzyme-master\src\main\java\horse\wtf\nzyme\channels\ChannelHopper.java:91:	Avoid if (x != y) ..; else ..;
+C:\nzyme-master\src\main\java\horse\wtf\nzyme\channels\Frequencies.java:22:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+C:\nzyme-master\src\main\java\horse\wtf\nzyme\configuration\Configuration.java:86:	Avoid if (x != y) ..; else ..;
+C:\nzyme-master\src\main\java\horse\wtf\nzyme\configuration\Configuration.java:103:	Avoid if (x != y) ..; else ..;
+C:\nzyme-master\src\main\java\horse\wtf\nzyme\configuration\InternetAddressValidator.java:45:	New exception is thrown in catch block, original stack trace may be lost
+C:\nzyme-master\src\main\java\horse\wtf\nzyme\dot11\Dot11LeavingReason.java:25:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+C:\nzyme-master\src\main\java\horse\wtf\nzyme\dot11\Dot11MetaInformation.java:25:	A class which only has private constructors should be final
+C:\nzyme-master\src\main\java\horse\wtf\nzyme\dot11\Dot11SSID.java:29:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+C:\nzyme-master\src\main\java\horse\wtf\nzyme\dot11\Dot11SSID.java:39:	New exception is thrown in catch block, original stack trace may be lost
+C:\nzyme-master\src\main\java\horse\wtf\nzyme\dot11\Dot11SSID.java:54:	New exception is thrown in catch block, original stack trace may be lost
+C:\nzyme-master\src\main\java\horse\wtf\nzyme\handlers\AssociationResponseFrameHandler.java:82:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+C:\nzyme-master\src\main\java\horse\wtf\nzyme\handlers\AuthenticationFrameHandler.java:117:	A high ratio of statements to labels in a switch statement.  Consider refactoring.
+C:\nzyme-master\src\main\java\horse\wtf\nzyme\handlers\AuthenticationFrameHandler.java:117:	Switch statements should have a default label
+C:\nzyme-master\src\main\java\horse\wtf\nzyme\handlers\AuthenticationFrameHandler.java:167:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+C:\nzyme-master\src\main\java\horse\wtf\nzyme\handlers\BeaconFrameHandler.java:75:	Avoid if (x != y) ..; else ..;
+C:\nzyme-master\src\main\java\horse\wtf\nzyme\handlers\ProbeRequestFrameHandler.java:53:	Avoid if (x != y) ..; else ..;
+C:\nzyme-master\src\main\java\horse\wtf\nzyme\handlers\ProbeRequestFrameHandler.java:74:	Avoid if (x != y) ..; else ..;
+C:\nzyme-master\src\main\java\horse\wtf\nzyme\handlers\ProbeRequestFrameHandler.java:83:	Avoid if (x != y) ..; else ..;
